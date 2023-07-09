@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+head {
+    display: none;
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    display: block;
+
+}
+.top-container {
+    background-color: #F8F6F4;
+    position: relative;
+    padding-top: 2px;
+    
+    
+}
+.container {
+    
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.d-flex {
+    display: flex;
+}
+
+
+.nav-item {
+    font-family: "Merriweather", sans-serif;
+    color: #116A7B;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.nav-link {
+    color: #116A7B;
+}
+.nav {
+    background-color: #F8F6F4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+h1 {
+    color: #116A7B;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+}
+.fw-bold {
+    font-weight: 700;
+}
+h2 {
+    color: #116A7B;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.mx-auto {
+    margin-right: autot;
+    margin-left: auto;
+}
+.d-block {
+    display: block;
+    height: 100px;
+    opacity: 0.5;
+
+   
+}
+img, svg {
+    vertical-align: middle;
+}
+
+.chetna-profile-picture {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 100px 0;
+}
+
+
+.intro {
+    width: 50%;
+    margin: auto;
+    font-size: xx-large;
+}
+p {
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.text-center {
+    text-align: center;
+}
+.d-block {
+    display: block;
+    opacity: 0.8;
+    height:300px;
+    border-radius: 20%;
+}
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   
+}
+.px-4 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+   
+}
+
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.g-3, .gy-3 {
+    --bs-gutter-y: 1rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+.btn-group, .btn-group-vertical {
+    
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-group {
+    border-radius: var(--bs-border-radius);
+}
+a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: underline;
+}
+.btn {
+    background: #C2DEDC;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #116A7B;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 100px;
+}
+.checkmark-skills {
+    line-height: 3.0;
+    font-size: 1.3rem;
+}
+img, svg {
+    vertical-align: middle;
+}
+.bottom-container {
+    background-color: #F8F6F4;
+    position: relative;
+    padding-top: 50px;
+}
+.nav {
+    background-color: #F8F6F4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mt-4 {
+    margin-top: 1.5rem;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    text-align: center;
+  }
+
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+  #no-bullets{
+    list-style-type: none;
+  }
+  #achivements h3{
+    text-align: center;
+    line-height: 60px;
+  }
+  #hobbies h3{
+    text-align: center;
+    line-height: 55px;
+  }
+  .education-info{
+    text-align: center;
+    line-height: 00px;
+  }
+
+  
